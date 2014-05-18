@@ -17,12 +17,12 @@ License: GPL
 		width:980px;
 }
 .logo{
-	float: left;
+	float: left;margin-right: 30px;
 }
 *{margin:0;padding:0;}
 ul,li,ol{ list-style:none;}
 div.menu-main-container{height: 95px;line-height: 95px;}
-li.cat-item{float:left;}
+li.cat-item{float:left;font-size: 27px;margin-right:20px;}
 img,a img{ border:none;}
 table{ border-collapse:collapse; border-spacing:0;}
 em,i,u{ font-style:normal;}
@@ -44,7 +44,7 @@ h1,h2,h3,h4,h5,h6{ font-weight:bold;}
 
 
 /*********图片切换 css定义***********/
-.sub_box{width:960px; height:360px;  margin-left:auto;text-align:center;overflow:hidden; border:1px solid #cccccc; background:url() center center no-repeat; *background:url() 220px 120px no-repeat;}
+.sub_box{margin-bottom:15px;width:960px; height:360px;  margin-left:auto;text-align:center;overflow:hidden; border:1px solid #cccccc; background:url() center center no-repeat; *background:url() 220px 120px no-repeat;}
 .sub_box img{border:none; width:960px; height:360px;}
 #bd1lfimg{position:relative; width:960px; height:360px; overflow:hidden;}
 #bd1lfimg div{width:100000px; margin-left:-4px;}

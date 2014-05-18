@@ -31,7 +31,7 @@
                
                         <div class="menu-main-container">
 <?php
-                    $data = wp_list_categories('show_count=1&echo=0&title_li=&depth=1&hide_empty=0&orderby=ID');
+                    $data = wp_list_categories('show_count=0&echo=0&title_li=&depth=1&hide_empty=0&orderby=ID');
                     $data = preg_replace('/\<\/a\> \((.*)\)/',' <span>$1</span></a>',$data);
                     echo $data;
                   ?>                      
