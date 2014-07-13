@@ -22,7 +22,7 @@
 </head>
 <body>
 <div id="wrapper">
-<div id="header" style="border-bottom:1px dotted #DDDDDD;margin-bottom:10px">
+<div id="header" style="border-bottom:1px dotted #DDDDDD;margin-bottom:20px">
     <div class="inner">
                 <div class="logo"> 
                     <img src="<?php eth_getLogo();?>"/>

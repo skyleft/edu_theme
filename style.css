@@ -19,8 +19,12 @@ License: GPL
 .logo{
 	float: left;margin-right: 30px;
 }
+div#yearNav{
+	text-align: center;
+	margin-bottom:20px;
+}
 *{margin:0;padding:0;}
-ul,li,ol{ list-style:none;}
+ul,li,ol{ list-style:none;margin-left: 20px;margin-bottom: 20px;}
 div.menu-main-container{height: 95px;line-height: 95px;}
 li.cat-item{float:left;font-size: 27px;margin-right:20px;}
 img,a img{ border:none;}

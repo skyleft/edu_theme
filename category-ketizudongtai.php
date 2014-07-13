@@ -1,12 +1,12 @@
 <?php get_header(); ?> 
 				  
 
-              <ul class="mcol">
+              <ol class="mcol">
               <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
-              	<li class="article" id="post-<?php the_ID(); ?>">
+              	<li class="article" id="post-<?php the_ID(); ?>" style="list-style:initial;">
 
                     <div class="article-over">
-                      <h6><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a><?php the_time(__('F jS, Y', 'kubrick')) ?></h6>
+                      <h6><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<?php the_time(__('F jS, Y', 'kubrick')) ?></h6>
                       
                       <!-- <div class="postmetadata">
                           Posted: <?php the_time(__('F jS, Y', 'kubrick')) ?>&nbsp;&#721;&nbsp;
@@ -20,12 +20,12 @@
 
 
             <?php endif; ?>
-            </ul>
+            </ol>
 
             <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
             <?php endwhile; ?>
             <?php else : ?>
-                <h1 id="error"><?php _e("Sorry, but you are looking for something that isn&#8217;t here."); ?></h1>
+                <h1 id="error"><?php _e("暂无内容"); ?></h1>
             <?php endif; ?>
 
 

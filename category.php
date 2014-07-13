@@ -54,7 +54,7 @@
             <?php if(have_posts()) : ?><?php while(have_posts()) : the_post(); ?>
             <?php endwhile; ?>
             <?php else : ?>
-                <h1 id="error"><?php _e("Sorry, but you are looking for something that isn&#8217;t here."); ?></h1>
+                <h1 id="error"><?php _e("暂无内容！"); ?></h1>
             <?php endif; ?>
 
 
